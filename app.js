@@ -1,5 +1,5 @@
 const randomColor = () => {
-    const color = Math.ceil(Math.random() * 256)
+    const color = Math.floor(Math.random() * 256)
     return color
 }
 const rgb = () => {
